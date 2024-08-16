@@ -1,4 +1,4 @@
-obj-m := btusb.o
+obj-m := btusb.o btintel.o btrtl.o
 
 KERNEL_DIR ?= /usr/src/linux-headers-$(shell uname -r)
 
